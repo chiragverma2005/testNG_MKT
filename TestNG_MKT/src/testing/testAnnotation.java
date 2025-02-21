@@ -25,7 +25,7 @@ public class testAnnotation {
 	
 	@BeforeTest
 	public static void btest() {
-		System.out.println("@BeforeTest");
+		System.out.println("@BeforeoiuyTest");
 	}	
 	
 	
