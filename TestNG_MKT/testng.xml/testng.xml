@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suitename">
+  <test thread-count="5" name="Testname">
+<parameter name 
+    <classes>
+<class name="testing.simplePrint"/>
+      <class name="testing.testAnnotation"/>
+    
+    </classes>
+  </test> <!-- Testname -->
+</suite> <!-- Suitename -->

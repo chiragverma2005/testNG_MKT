@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suitename]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testname(failed)">
+    <classes>
+      <class name="testing.testAnnotation">
+        <methods>
+          <include name="bclass"/>
+          <include name="bsuite"/>
+          <include name="aclass"/>
+          <include name="TC1"/>
+          <include name="btest"/>
+          <include name="asuite"/>
+          <include name="atest"/>
+        </methods>
+      </class> <!-- testing.testAnnotation -->
+    </classes>
+  </test> <!-- Testname(failed) -->
+</suite> <!-- Failed suite [Suitename] -->
